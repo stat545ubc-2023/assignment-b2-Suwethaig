@@ -3,9 +3,8 @@ Title: Temperature conversion
 Version: 0.1.0
 Authors@R: 
     person("Suwetha", "Ilangovan Gajalakshmi", , "igsuwetha@example.com", role = c("aut", "cre"))
-Description:Converts temperature between the three formats - celsius, fahrenheit and kelvin.
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+Description: Converts temperature between the three formats - celsius, fahrenheit and kelvin.
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
