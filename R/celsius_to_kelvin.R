@@ -1,4 +1,4 @@
-# Convert temperature from Celsius to Kelvin
+#' Convert temperature from Celsius to Kelvin
 #'
 #'@description Given an input temperature number, this function would convert
 #'it from celsius to kelvin.
