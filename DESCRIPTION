@@ -1,6 +1,6 @@
 Package: tempconv
 Title: Temperature conversion
-Version: 0.1.0
+Version: 1.0.0
 Authors@R: 
     person("Suwetha", "Ilangovan Gajalakshmi", , "igsuwetha@example.com", role = c("aut", "cre"))
 Description: Converts temperature between the three formats - celsius, fahrenheit and kelvin.

@@ -1,0 +1,41 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# tempconv
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of tempconv is to help with temperature conversions.
+It provides functions, which can convert between celsius, fahrenheit and kelvin.  
+
+## Installation
+
+You can install the development version of tempconv from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("stat545ubc-2023/tempconv")
+```
+
+## Usage
+
+Converting across temperature formats is needed across several applications. This is what tempconv package does with the help of its several conversion functions.
+
+```{r}
+library(tempconv)
+
+celsius_to_kelvin(25)
+```
